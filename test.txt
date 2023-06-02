@@ -1,0 +1,62 @@
+java test
+
+1.explain:
+	1.public static void main(String args[])
+
+ans: this is main method signature in every programme, compiler check main method in first point this is entry points of every programme compiler calling main method
+	in main method public keyword is a access specifer if we declare any method as static we don't need create object compiler automatic create instance and void 		is a return type that are nothing return and main is a method name and passing String array types of arguments in perameter.
+
+	2.Class And Object:
+Ans: class:- in java class is a Blueprit,it is a logical entity i does not exist physically like just name of a class we can declare all the properties and member
+	inside of class body. just like as class Animal
+
+	Object:- in Java every thing is represented in Object ,it is instance of class object is physically exist object of Animal class is Dog. Dog is exist 	physically when we calling a constructor of a class object are created by new Keyword.
+
+	3.JVM, JRE, JDK:
+Ans:- 
+	JVM:- jvm(Java virtual mechine) jvm are used of different types of os system it is convert byte code to machine code it exist of enterpreter
+	JRE:- Jre(Java Runtime environmet) jre provides runtime environment jre consists Jvm are different types of tool and build-in library,  
+	JDK:- jdk (Java Development Kit): jdk is development tool which is present is different-2 version acording to requirement that are used jdk
+	
+2.write a programme to reverse a given number?
+	input:1234
+	output:4321
+
+3.write a programme to reverse a given String?
+	input:program
+	output: margorp
+
+4.Explain the constructor and its type's?
+Ans: Constructor:- constructor just like a special method, constructor name same as class name, constructor have no return type, we can ovrerload constructor and 	constructor used for value initialization, and also used constructor for constructor chaining.
+
+	types of Constructor:- Constructor has 2 types 
+				1. no-arg construcor
+				2. pramiterized constructor
+
+5. Different between this keyword and this()?
+ans:-
+
+6.Why main method is static and explain the method types?
+	
+	Why main method Static:- if we declare any method as static we dont need create object java compiler check first main method compiler directly call main method 	without create instance. so if we not declare any method as static then first create object than call thos types of methods
+	
+	Method Types:- Methods are 2 types
+			1. pre-define method (built-in method):-pre define method id declare inside of buit-in package just like java.lang package
+				declare different classes and declare of many method that method call pre-define  method we can direct used from class no need to 				declare. just like print()method present in PrintStream Class, max() method present in Math class.
+			
+			2. UserDefine Method:- those method are declare of user as per requirement of declare of user defined method
+
+7.write a programe to get the number from 1 to 100 which are multiple 5 and 10;
+
+8. what do you know about class loading? expalin java class loaders?
+ans:- Class loading as a run time process jvm call class file to load in class loader.
+	that next process is verifing code 
+
+9.can we have private constructor and can we overload the constructor expalin with on example.
+
+10. write a programme to find the length of the array is present in an given array?
+	input: {12,3,2,45,6,7,6}
+	output:[7] length of the array is present in the given list
+
+11. can we use instance variable inside the static method?
+ans:-yes we can declare instance variable
