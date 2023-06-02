@@ -30,7 +30,7 @@ Ans:-
 Ans: Constructor:- constructor just like a special method, constructor name same as class name, constructor have no return type, we can ovrerload constructor and 	constructor used for value initialization, and also used constructor for constructor chaining.
 
 	types of Constructor:- Constructor has 2 types 
-				1. no-arg construcor
+				1. no-arg construcor(default Constructor)
 				2. pramiterized constructor
 
 5. Different between this keyword and this()?
@@ -38,7 +38,7 @@ ans:-
 
 6.Why main method is static and explain the method types?
 	
-	Why main method Static:- if we declare any method as static we dont need create object java compiler check first main method compiler directly call main method 	without create instance. so if we not declare any method as static then first create object than call thos types of methods
+Ans:	Why main method Static:- if we declare any method as static we dont need create object java compiler check first main method compiler directly call main method 	without create instance. so if we not declare any method as static then first create object than call thos types of methods
 	
 	Method Types:- Methods are 2 types
 			1. pre-define method (built-in method):-pre define method id declare inside of buit-in package just like java.lang package
@@ -47,6 +47,26 @@ ans:-
 			2. UserDefine Method:- those method are declare of user as per requirement of declare of user defined method
 
 7.write a programe to get the number from 1 to 100 which are multiple 5 and 10;
+ans: 
+	public class FindNumber
+	{
+		public static void main(String[] args)
+		{
+			int number=100;
+		
+			for(int i=1;i<=number;i++)
+			{
+		     		if(i % 5==0 || i % 10==0 )
+				{
+			 		System.out.println(i);
+			 	}
+			}
+
+		}
+
+	}
+	
+
 
 8. what do you know about class loading? expalin java class loaders?
 ans:- Class loading as a run time process jvm call class file to load in class loader.
@@ -54,9 +74,25 @@ ans:- Class loading as a run time process jvm call class file to load in class l
 
 9.can we have private constructor and can we overload the constructor expalin with on example.
 
+Ans:-
+
 10. write a programme to find the length of the array is present in an given array?
 	input: {12,3,2,45,6,7,6}
 	output:[7] length of the array is present in the given list
 
+Ans: public class FindNumberSize 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		int[] arr= {12,3,2,45,6,7,6};
+		System.out.println("output:"+arr.length);
+
+	}
+
+}
+
+
 11. can we use instance variable inside the static method?
-ans:-yes we can declare instance variable
+ans:-we can not declare instance variable inside static method
